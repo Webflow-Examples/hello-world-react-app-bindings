@@ -1,6 +1,7 @@
 import WebflowLogo from "./components/WebflowLogo";
 import DocCard from "./components/DocCard";
 import BindingsStatus from "./components/BindingsStatus";
+import SentryPinger from "./components/SentryPinger";
 
 const FRAMEWORK = "React + Vite";
 
@@ -64,6 +65,8 @@ export default function App() {
         </section>
 
         <BindingsStatus />
+
+        <SentryPinger />
 
         <section className="wf-cards" aria-label="Documentation" style={{ marginTop: 32 }}>
           {DOC_LINKS.map((l) => (

@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/bindingsstatus.tsx","./src/components/doccard.tsx","./src/components/webflowlogo.tsx","./worker/index.ts","./worker/routes/binding-status.ts"],"version":"5.8.3"}
+{"root":["./src/app.tsx","./src/main.tsx","./src/sentry.ts","./src/vite-env.d.ts","./src/components/bindingsstatus.tsx","./src/components/doccard.tsx","./src/components/sentrypinger.tsx","./src/components/webflowlogo.tsx","./worker/index.ts","./worker/routes/binding-status.ts","./worker/routes/sentry-ping.ts"],"version":"5.8.3"}
